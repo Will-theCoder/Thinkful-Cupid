@@ -33,48 +33,34 @@
     <main>
       <!-- Join -->
       <section id="join">
-        <div class="item-double">
         <img src="images/love.png" alt="ThinkfulCupid - love" />
         <!-- Add join form here -->
-        <div id="match">
-        <h2>Find your perfect match</h2>
-          <form>
-            <div class="item-double">
-                <label for="email">Email:</label>
-                <input 
-                id="email" 
-                type="email" 
-                name="email" 
-                placeholder="JonDoe@thinkful.com" 
-                required/>
-            </div>
-            <div class="item-double">
-                <label for="pwd">Create a password</label>
-                <input 
-                id="pwd" 
-                type="password" 
-                name="pwd"   
-                required/>
-            </div>
-            <div class="special">
-              <label for="name">Username</label>
-              <input id="name" type="text" name="name"/>
-        </div>
-        <div class="item-double">
-        <label for="I am a">I am A</label>
-        <select name="fonts" size="1">
-          <option value="Female">Female</option>
-          <option value="Male">Male</option>
-          <option value="Non-binary">Non-binary</option>
-      </select>
-      </div>
-    
         <div>
-            <button type="Join">Join</button>
-      </div>
-    </div>
-    </div>
+        <h2>Find your perfect match</h2>
+        <form>
+          <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" />
+          </div>
+          <div>
+            <label for="password">Create a password</label>
+            <input id="password" type="password" name="password" />
+          </div>
+          <div>
+            <label for="username">Username</label>
+            <input id="username" type="text" name="username" />
+          </div>
+          <div>
+            <p>I am a...</p>
+            <select name="gender" size="1">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+            <button type="submit">Join</button>
         </form>
+        </div>
       </section>
 
       <!-- About -->

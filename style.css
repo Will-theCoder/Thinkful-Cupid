@@ -147,22 +147,25 @@ footer p {
     font-size: 40px;
   }
 
-  #join div {
-    display: flex;
-    flex-direction: row;
-    
+#join{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+#join div {
+  justify-content: space-between;
+}
+
+#join img {
+  width: 60%;
+  margin-right: 25px;
+  padding-right: 20px;
   }
 
-  #join #match {
-    display: flex;
-    flex-direction: column;
-  }
   main img {
     width: 60%;
-  }
-
-  #join img{
-    margin-right: 25px;
   }
 
    #about h2 {
